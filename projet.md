@@ -3,7 +3,7 @@ layout: page
 title: Le Projet
 ---
 
-<img src="{{ /assets/images/energy-2181902_1920.jpg | relative_url }}" 
+<img src="{{ "/assets/images/energy-2181902_1920.jpg" | relative_url }}" 
      style="float: center; margin-bottom: 20px;" />
 
 ##### Contexte général
