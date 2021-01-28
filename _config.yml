@@ -19,7 +19,7 @@ email: contact@acyleole.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Acyléole a pour objectif de développer les énérgies renouvelables citoyennes 
   sur le territoire d'Acigné et ses environs.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/beta" # the subpath of your site, e.g. /blog
 url: "https://www.acyleole.fr"
 #twitter_username: jekyllrb
 #github_username:  jekyll
