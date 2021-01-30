@@ -6,9 +6,8 @@ layout: default
   <header>
     <h1>{{ page.title | escape }}</h1>
     <p class="text-muted">
-      <time datetime="{{ page.date | date_to_xmlschema }}">
-        {%- assign date_format = "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
+      <time datetime="{{ page.date | "%d-%m-%Y" }}">
+        {{ page.date | date: "%d-%m-%Y" }}
       </time>
       {%- if page.author -%}
         • {{ page.author }}
