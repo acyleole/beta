@@ -6,7 +6,7 @@ title: Actualités
 {% for post in site.posts %}
   <article>
     <h4>
-      <a href="{{ post.url }}">
+      <a href="{{ post.url | relative_url }}">
         {{ post.title }}
       </a>
     </h4>
