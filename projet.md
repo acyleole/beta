@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Le Projet
+title: Le projet
 ---
 
 <img src="{{ "/assets/images/energy-2181902_1920.jpg" | relative_url }}" 
