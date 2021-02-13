@@ -1,34 +1,39 @@
+<footer class="bg-dark">
+  <div class="py-4 border-top">
+    <div class="container">
 
-<div class="py-5 border-top">
-  <div class="container">
-
-    <div class="row">
-
-      <div class="col-sm">
-        <ul class="list-unstyled">
-          <li>
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-          </li>
-          {%- if site.email -%}
+      <div class="row text-white">
+        <div class="col-sm">
+          <ul class="list-unstyled">
             <li>
-              <a href="mailto:{{ site.email }}">
-                {{ site.email }}
+              {%- if site.author -%}
+                {{ site.author | escape }}
+              {%- else -%}
+                {{ site.title | escape }}
+              {%- endif -%}
+            </li>
+            {%- if site.email -%}
+              <li>
+                <a href="mailto:{{ site.email }}">
+                  {{ site.email }}
+                </a>
+              </li>
+            {%- endif -%}
+            <li>
+              <a href="{{ "/mentions-legales.html" | relative_url}}">
+                Mentions légales
               </a>
             </li>
-          {%- endif -%}
-        </ul>
-      </div>
+          </ul>
+        </div>
 
 
-      <div class="col-sm text-right">
-        <p>{{- site.description | escape -}}</p>
+        <div class="col-sm text-right">
+          <p>{{- site.description | escape -}}</p>
+        </div>
+
       </div>
 
     </div>
-
   </div>
-</div>
+</footer>

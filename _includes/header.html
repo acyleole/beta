@@ -1,6 +1,13 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="p-3 mb-2 d-flex flex-row-reverse" 
+     style="background-color: #008440; 
+            font-size: 12px; 
+            font-weight: 600; 
+            text-transform: uppercase;">
+  <div><a class="text-white" style="text-decoration: none;" href="{{ "/contact.html" | relative_url }}">Contactez nous</a></div>
+</div>
+<nav class="navbar shadow navbar-expand-lg navbar-light bg-light sticky-top">
   <div class="container">
-    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}"><img src="{{ "/assets/images/logo.jpg" | relative_url }}" width="200"/></a>
+    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}"><img src="{{ "/assets/images/logo.jpg" | relative_url }}" width="120"/></a>
 
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -10,13 +17,13 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav ml-auto">
         {%- if page.url == "/" | relative_url -%}
-          <li class="nav-item active">
+          <li class="nav-item active px-2">
             <a class="nav-link" href="{{ "/" | relative_url }}">Accueil</a>
           </li>
         {%- else -%}
-          <li class="nav-item">
+          <li class="nav-item px-2">
             <a class="nav-link" href="{{ "/" | relative_url }}">Accueil</a>
           </li>
         {% endif -%}
@@ -24,11 +31,11 @@
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- if my_page.title -%}
             {%- if my_page.url == page.url -%}
-              <li class="nav-item active">
+              <li class="nav-item px-2 active">
                 <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
               </li>
             {%- else -%}
-              <li class="nav-item">
+              <li class="nav-item px-2">
                 <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
               </li>
             {%- endif -%}

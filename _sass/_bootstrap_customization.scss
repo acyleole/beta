@@ -4,7 +4,13 @@
 // Navbar ======================================================================
 
 .navbar {
-  font-size: $font-size-lg;
+ // font-family: Roboto Condensed;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  
+  padding-right: 12rem !important;
+  padding-left: 12rem !important;
 
   &.bg-dark {
     background-color: $success !important;
@@ -12,7 +18,7 @@
 
   &.bg-light {
     background-color: $white !important;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 0px solid rgba(0, 0, 0, .1);
 
     &.navbar-fixed-top {
       border-width: 0 0 1px;
@@ -35,7 +41,9 @@ blockquote {
 }
 
 footer {
-  font-size: $font-size-sm;
+  font-family: Roboto Condensed;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .lead {
