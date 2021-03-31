@@ -94,7 +94,7 @@ Le projet de Programmation Pluriannuelle de l’Energie (PPE) de janvier 2020 pr
 
 - Les éoliennes contenant des terres rares (Néodyne) pour leurs aimants permanents représentent moins de 3 % du parc français[^2].
 
-- Le développement de l’éolien (et des renouvelables en général) ne conduit absolument pas à un recours accru aux fossiles contrairement à une opinion largement répandue en France, c’est même largement le contraire comme le montrent [les exemples allemands][7.1] et [danois][7.2].
+- Le développement de l’éolien (et des renouvelables en général) ne conduit absolument pas à un recours accru aux fossiles contrairement à une opinion largement répandue en France, c’est même largement le contraire comme le montrent [les exemples allemands][4.1] et [danois][4.2].
 
 [^1]: Voir par exemple [le projet Jupiter 1000](https://www.jupiter1000.eu/), [cette vidéo](https://www.youtube.com/watch?v=njcTodX6lyI) et [un démonstrateur dans une école d’ingénieurs à Nantes](https://polytech.univ-nantes.fr/une-ecole-sur-3-campus/actualites/le-demonstrateur-power-to-gas-entre-en-service-sur-le-site-de-la-chantrerie--2180311.kjsp)
 [^2]: [Les terres rares sont elles indispensables pour les moteurs electriques des éoliennes et panneaux solaires](https://www.techniques-ingenieur.fr/actualite/articles/les-terres-rares-sont-elles-indispensables-pour-les-moteurs-electriques-les-eoliennes-et-les-panneaux-solaires-1300/)  et [La rareté de certains métaux peut elle freiner le developpement des énergies renouvelables](https://decrypterlenergie.org/la-rarete-de-certains-metaux-peut-elle-freiner-le-developpement-des-energies-renouvelables)

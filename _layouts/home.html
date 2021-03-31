@@ -33,5 +33,24 @@ layout: default
       </div>        
     </div>
   {%- endif -%}
-
+  {%- if site.publications.size > 0 -%}
+    <div class="py-5">
+      <p class="h4">{{ "Publications" }}</p>
+      <div class="row align-items-center">
+        {%- for post in site.publications limit:5 -%}
+        <div class="col">
+          <p class="h5">
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </p>
+          <span class="text-muted">
+            {{ post.date | date: "%d-%m-%Y" }}
+          </span>
+          {{ post.excerpt | truncate: 200 }}
+        </div>
+        {%- endfor -%}
+      </div>        
+    </div>
+  {%- endif -%}
 </div>

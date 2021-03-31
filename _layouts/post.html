@@ -16,7 +16,17 @@ layout: default
   </header>
 
   <section>
-    {{ content }}
+    {%- if page.featured-image -%}
+      <div class="row">
+        <div class="col"><img src="{{ page.featured-image | relative_url }}" style="scale: 0.8"/></div>
+      </div>
+    {%- endif -%}
+    <div class="row">
+      <div class="col">{{ content }}</div>
+    </div>
+    {%- if page.cablogurl -%}
+      <br><a href="{{ page.cablogurl }}">Lisez la suite sur le blog de Courants Alternatifs...</a>
+    {%- endif -%}
   </section>
 
 </article>

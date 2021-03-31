@@ -3,7 +3,7 @@ layout: post
 title:  "Création d'un collectif pour une participation citoyenne au projet éolien d'Acigné"
 date:   2018-05-02
 ---
-Courants Alternatifs a initié la création du collectif éolien citoyen. Retrouvez ci-dessous l'annonce de l'association. 
+Courants Alternatifs a initié la création du collectif éolien citoyen. Retrouvez ci-dessous l'annonce de l'association.<br>
 <img src="{{ "/assets/images/collectif.jpg" | relative_url }}" style="float: center; margin-bottom: 5px; scale: 0.5"/>
 
 #### Courants Alternatifs toujours favorable au projet éolien sur Acigné
